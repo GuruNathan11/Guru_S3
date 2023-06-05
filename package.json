@@ -1,0 +1,36 @@
+{
+  "name": "postman_docusign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "envelope.js",
+  "scripts": {
+    "start": "node s3",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/abort-controller": "^3.310.0",
+    "@aws-sdk/client-s3": "^3.321.1",
+    "aws-sdk": "^2.1367.0",
+    "axios": "^1.3.5",
+    "cors": "^2.8.5",
+    "docusign-esign": "^6.1.0",
+    "dotenv": "^16.0.3",
+    "dropbox": "^10.34.0",
+    "express": "^4.18.2",
+    "file-url": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "isomorphic-fetch": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "nodemon": "^2.0.22",
+    "passport": "^0.6.0",
+    "passport-docusign": "^1.3.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
